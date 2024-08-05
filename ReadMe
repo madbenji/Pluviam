@@ -1,0 +1,114 @@
+Here is the cleaned-up version of the README:
+
+---
+
+# Rainwater Harvesting System with Tokenization and Impact Marketplace Integration
+
+## Project Overview
+
+This project focuses on developing a rainwater harvesting system that integrates blockchain technology to promote sustainability and community involvement. The system operates on a "harvest to earn" model, incentivizing users to effectively monitor and manage the system. Additionally, it explores water tokenization to create a market where water tokens can be traded, integrated with an impact marketplace.
+
+## Features
+
+- **Rainwater Harvesting System:** Collects and stores rainwater efficiently for various applications.
+- **Harvest to Earn:** Rewards users for monitoring and managing the system.
+- **dApp Integration:** Provides a user-friendly interface for system management.
+- **Oracles Integration:** Collects and verifies real-time data from IoT sensors.
+- **Decentralized MRV:** Utilizes blockchain for transparent and secure data recording.
+- **Water Tokenization:** Converts harvested water into digital tokens, facilitating trading in an impact marketplace, such as the one being developed by ReFi Mexico.
+
+## Technical Overview
+
+### Oracles Integration
+
+Oracles gather and verify real-time data, such as rainfall levels, water quality, and system performance. This data is recorded on the blockchain, where smart contracts manage system operations and financial transactions based on predefined conditions.
+
+### Decentralized MRV
+
+The Monitoring, Reporting, and Verification (MRV) system uses blockchain technology to maintain data integrity and transparency. Community members can participate in the MRV process by submitting and verifying data, enhancing trust and engagement.
+
+### Water Tokenization
+
+The harvested water is tokenized into digital assets, with each token representing a specific quantity of water. These tokens can be traded in a crypto marketplace, allowing for transactions based on supply and demand. The tokens are intended for integration with marketplaces like ReFi Mexico's impact market.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+- Solidity
+- Truffle
+- Ganache
+
+### Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/rainwater-harvesting-system.git
+   cd rainwater-harvesting-system
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Compile Smart Contracts**
+   ```bash
+   truffle compile
+   ```
+
+4. **Deploy Smart Contracts**
+   ```bash
+   truffle migrate
+   ```
+
+5. **Run the dApp**
+   ```bash
+   npm start
+   ```
+
+## Configuration
+
+- **Oracles:** Set up in `oracleConfig.json`.
+- **MRV System:** Configure in `mrvConfig.json`.
+- **Tokenization:** Adjust parameters in `tokenConfig.json`.
+
+## Usage
+
+- **Monitor System:** Use the dApp to access real-time data from the rainwater harvesting system.
+- **Manage Tokens:** Issue, trade, and redeem water tokens via the integrated marketplace.
+- **Harvest to Earn:** Participate in system monitoring and management to earn rewards.
+- **Submit Data:** Engage in the decentralized MRV process by submitting and verifying data.
+
+## Contributing
+
+We welcome contributions. To contribute:
+
+1. **Fork the Repository**
+2. **Create a Branch**
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Commit Your Changes**
+   ```bash
+   git commit -m 'Add a new feature'
+   ```
+4. **Push to the Branch**
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Create a Pull Request**
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- [OpenZeppelin](https://openzeppelin.com) for secure smart contract libraries.
+- [Chainlink](https://chain.link) for reliable oracles.
+- [Gitcoin](https://gitcoin.co) for supporting open-source development.
+
+--- 
